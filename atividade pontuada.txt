@@ -1,0 +1,45 @@
+	atividade pontuada dia 06/10/2020
+
+tabelas:
+
+funcionario --> ok
+funcao --> ok
+horario --> ok
+horario_trabalho_funcionario --> ok 	(relacionada)
+diretor --> ok
+genero --> ok
+sala --> ok
+filme --> ok	(relacionada)
+filme_exibido_sala --> ok	(relacionada)
+premiacao --> ok
+filme_has_premiacao --> ok  	(relacionada)
+
+questões:
+
+1- ok
+2-ok
+a. sim	
+3-ok
+4-ok
+5-ok
+6-ok
+7-ok
+8-ok	
+9-ok
+10-ok	
+11-ok
+
+1) De acordo com o DER acima, crie o banco de dados com o nome atividadeSEUNOME.
+2) Crie uma tabela com o nome DEPENDETE com os atributos de sua preferência.
+a. Não crie a chave primaria da tabela dependente.
+3) Apague a tabela premiacao.
+4) Altere o tipo de dados do atributo nomeRB da tabela filme para varchar(100) não nulo.
+5) Crie uma regra na tabela sala que só permita inserir uma nova sala se a capacidade for
+maior que 20.
+6) Adicione na tabela dependente a chave primaria através do alter table.
+7) Adicione um atributo com o nome data_cadastro na tabela funcionário.
+8) Apague o atributo data_ cadastro da tabela funcionário.
+9) Renomeei o nome da tabela dependente para depen.
+10) Adicione na tabela depen um atributo com o nome id_funcionario do tipo inteiro e não
+nulo.
+11) Relacione a tabela depen com a tabela funcionário, use o alter table para relacionar.
